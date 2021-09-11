@@ -1,0 +1,15 @@
+#Começando a escrever o código do programa
+
+package br.com.alura.agenda;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+
+public class MainActivity extends Activity{
+
+  protected void onCreate(@Nullable Bundle savedInstanceState)
+    super.onCreate(savedInstanceState);
+    Toast.makeText(context this, text "Rafael", Toast.LENGTH_LONG).show();
+
+}
